@@ -1,0 +1,9 @@
+J:\Projects\SmallPad\SmallPad\bin\Release\SmallPad.exe.config
+J:\Projects\SmallPad\SmallPad\bin\Release\SmallPad.exe
+J:\Projects\SmallPad\SmallPad\bin\Release\SmallPad.pdb
+J:\Projects\SmallPad\SmallPad\obj\Release\WindowsFormsApp1.Main.resources
+J:\Projects\SmallPad\SmallPad\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+J:\Projects\SmallPad\SmallPad\obj\Release\SmallPad.csproj.GenerateResource.cache
+J:\Projects\SmallPad\SmallPad\obj\Release\SmallPad.csproj.CoreCompileInputs.cache
+J:\Projects\SmallPad\SmallPad\obj\Release\SmallPad.exe
+J:\Projects\SmallPad\SmallPad\obj\Release\SmallPad.pdb
