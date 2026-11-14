@@ -63,6 +63,8 @@
             this.aboutSmallPadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.insertDateTimeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.menuPad.SuspendLayout();
             this.statPad.SuspendLayout();
             this.SuspendLayout();
@@ -155,7 +157,9 @@
             this.findToolStripMenuItem,
             this.toolStripSeparator5,
             this.selectAllToolStripMenuItem,
-            this.timeDateToolStripMenuItem});
+            this.toolStripSeparator7,
+            this.timeDateToolStripMenuItem,
+            this.insertDateTimeToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
@@ -210,7 +214,8 @@
             // 
             this.findToolStripMenuItem.Name = "findToolStripMenuItem";
             this.findToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.findToolStripMenuItem.Text = "Find...";
+            this.findToolStripMenuItem.Text = "Find && Replace...";
+            this.findToolStripMenuItem.Click += new System.EventHandler(this.findToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
@@ -227,7 +232,7 @@
             // 
             this.timeDateToolStripMenuItem.Name = "timeDateToolStripMenuItem";
             this.timeDateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.timeDateToolStripMenuItem.Text = "Time / Date";
+            this.timeDateToolStripMenuItem.Text = "Insert picture...";
             // 
             // formatToolStripMenuItem
             // 
@@ -303,6 +308,7 @@
             this.aboutSmallPadToolStripMenuItem.Name = "aboutSmallPadToolStripMenuItem";
             this.aboutSmallPadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutSmallPadToolStripMenuItem.Text = "About SmallPad...";
+            this.aboutSmallPadToolStripMenuItem.Click += new System.EventHandler(this.aboutSmallPadToolStripMenuItem_Click);
             // 
             // statusBarToolStripMenuItem
             // 
@@ -314,6 +320,17 @@
             // printDialog1
             // 
             this.printDialog1.UseEXDialog = true;
+            // 
+            // insertDateTimeToolStripMenuItem
+            // 
+            this.insertDateTimeToolStripMenuItem.Name = "insertDateTimeToolStripMenuItem";
+            this.insertDateTimeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.insertDateTimeToolStripMenuItem.Text = "Insert date && time...";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(177, 6);
             // 
             // Main
             // 
@@ -347,7 +364,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statPad;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.RichTextBox rtbPad;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
@@ -373,6 +389,9 @@
         private System.Windows.Forms.ToolStripMenuItem statusBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutSmallPadToolStripMenuItem;
         private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripMenuItem insertDateTimeToolStripMenuItem;
+        public System.Windows.Forms.RichTextBox rtbPad;
     }
 }
 

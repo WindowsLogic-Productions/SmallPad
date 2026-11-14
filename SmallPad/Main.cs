@@ -31,6 +31,13 @@ namespace WindowsFormsApp1
             }
         }
 
+        void FindReplace()
+        {
+            var f = new Find();
+            f.txtSearchText.Text = rtbPad.SelectedText;
+            f.ShowDialog();
+        }
+
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var n = new Main();
@@ -86,6 +93,16 @@ namespace WindowsFormsApp1
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void aboutSmallPadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("SmallPad v" + Application.ProductVersion.ToString() + "\n\nCopyright 2026 WindowsLogic Productions.");
+        }
+
+        private void findToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FindReplace();
         }
     }
 }

@@ -11,3 +11,4 @@ J:\Projects\SmallPad\SmallPad\obj\Debug\SmallPad.pdb
 J:\Projects\SmallPad\SmallPad\bin\Debug\VPKSoft.WinFormsRtfPrint.dll
 J:\Projects\SmallPad\SmallPad\bin\Debug\VPKSoft.WinFormsRtfPrint.xml
 J:\Projects\SmallPad\SmallPad\obj\Debug\SmallPad.csproj.CopyComplete
+J:\Projects\SmallPad\SmallPad\obj\Debug\WindowsFormsApp1.Find.resources
